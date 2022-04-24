@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "notenoughexp",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Not Enough Exp",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/notenoughexp/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "slarper.notenoughexp.NotEnoughExp"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "notenoughexp.mixins.json"
   ],
 
   "depends": {

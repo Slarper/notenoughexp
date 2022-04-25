@@ -22,7 +22,7 @@ public abstract class MixinPlayerEntity extends LivingEntity {
     }
 
     @Inject(method = "addExperienceLevels",at = @At("HEAD"),cancellable = true)
-    private void banExpLevelLost(int levels, CallbackInfo ci){
+    private void banExpLevelCost(int levels, CallbackInfo ci){
         if (levels < 0){
             ci.cancel();
         }
